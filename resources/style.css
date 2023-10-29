@@ -37,9 +37,37 @@ button {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     background-color: #E15A97;
+    border-radius: 5px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+}
+
+.password-boxes {
+    width: 446px;
+    margin-top: 35px;
+    margin-left: 52px;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 24px;
+    border-top: 1px solid black;
+    
+}
+
+#password-box-1 {
+    margin-top: 35px;
+    height: 39px;
+    width: 211px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#password-box-2 {
+    margin-top: 35px;
+    height: 39px;
+    width: 211px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
