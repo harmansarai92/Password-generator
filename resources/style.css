@@ -2,9 +2,8 @@
     background-color: #1F2937;
 }
 
-h2 {
+h1 {
     font-family: 'Karla', sans-serif;
-    font-size: 40px;
     font-weight: 800;
     line-height: 40px;
     letter-spacing: -0.025em;
@@ -12,11 +11,20 @@ h2 {
 
 }
 
-h3 {
+h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 40px;
     font-weight: 800;
     line-height: 40px;
     letter-spacing: -0.025em;
     text-align: left;
+    font: #D5D4D8;
+
+}
+
+#main-text {
+    width: 550px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 200px;
 }
