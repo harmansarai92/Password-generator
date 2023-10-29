@@ -11,6 +11,14 @@ const characters = [
 let password1 = document.getElementById("password-box-1");
 let password2 = document.getElementById("password-box-2");
 
-function generateRandom {
+function generateRandom() {
     
+    let password1.innerHTML = ' '
+
+    for (let i = 0; i < 15; i++) {
+        let randomIndex1 = Math.floor( Math.random() * characters.length)
+        let randomCharacter1 = characters[randomIndex1]
+        password1.innerHTML += randomCharacter1
+    }
+
 }
