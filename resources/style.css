@@ -28,3 +28,18 @@
 .coloured-text {
    color: #E15A97 
 }
+
+button {
+    height: 42px;
+    width: 191px;
+    margin-left: 52px;
+    margin-top: 51px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-color: #E15A97;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
