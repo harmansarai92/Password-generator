@@ -22,9 +22,15 @@ h2 {
 }
 
 #main-text {
+    display: flex;
+    flex-direction: column;
     width: 550px;
-    height: 350px;
+    height: 550px;
     border: 1px solid white;
     border-radius: 5px;
-    margin-left: 200px;
+    
+}
+
+.green-text {
+    color: green;
 }
