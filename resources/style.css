@@ -55,10 +55,12 @@ button {
 }
 
 #password-box-1 {
-  margin-top: 35px;
-  padding-top: 15px;
+  position: relative;
   height: 39px;
   width: 211px;
   border: 1px solid black;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
