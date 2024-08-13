@@ -8,12 +8,11 @@ const characters = [
      ";","<",">",".","?","/"
 ];
 
-let password1 = document.getElementById("password-box-1");
-let password2 = document.getElementById("password-box-2");
+password1 = document.getElementById("password-box-1");
 
 function generateRandom() {
     
-    let password1.innerHTML = ' '
+   password1.innerHTML = ' '
 
     for (let i = 0; i < 15; i++) {
         let randomIndex1 = Math.floor( Math.random() * characters.length)
