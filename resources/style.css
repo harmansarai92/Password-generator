@@ -1,73 +1,73 @@
 * {
-    background-color: #861388;
+  background-color: #861388;
 }
 
 .main-text {
-    height: 80px;
-    width: 354px;
-    margin-top: 115px;
-    margin-left: 52px;
-    margin-bottom: 10px;
-    font-family: 'Karla', sans-serif;
-    font-size: 40px;
-    line-height: 40px;
-    color: white;
+  height: 80px;
+  width: 354px;
+  margin-top: 115px;
+  margin-left: 52px;
+  margin-bottom: 10px;
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  color: white;
 }
 
 .secondary-text {
-    height: 28px;
-    width: 372px;
-    margin-top: 10px;
-    margin-left: 52px;
-    font-size: 20px;
-    font-family: 'Inter', sans-serif;
-    color: white;
+  height: 28px;
+  width: 372px;
+  margin-top: 10px;
+  margin-left: 52px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: white;
 }
 
-
 .coloured-text {
-   color: #E15A97 
+  color: #e15a97;
 }
 
 button {
-    height: 42px;
-    width: 191px;
-    margin-left: 52px;
-    margin-top: 51px;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    background-color: #E15A97;
-    border-radius: 5px;
+  height: 42px;
+  width: 191px;
+  margin-left: 52px;
+  margin-top: 51px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background-color: #e15a97;
+  border-radius: 5px;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .password-boxes {
-    width: 446px;
-    margin-top: 35px;
-    margin-left: 52px;
-    display: inline-flex;
-    flex-direction: row;
-    gap: 24px;
-    border-top: 1px solid black;
-    
+  width: 446px;
+  margin-top: 35px;
+  margin-left: 52px;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 24px;
+  border-top: 1px solid black;
 }
 
 #password-box-1 {
-    margin-top: 35px;
-    height: 39px;
-    width: 211px;
-    border: 1px solid black;
-    border-radius: 5px;
+  margin-top: 35px;
+  padding-top: 15px;
+  padding-left: 55px;
+  height: 39px;
+  width: 211px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 #password-box-2 {
-    margin-top: 35px;
-    height: 39px;
-    width: 211px;
-    border: 1px solid black;
-    border-radius: 5px;
+  margin-top: 35px;
+  height: 39px;
+  width: 211px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
