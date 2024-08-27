@@ -52,6 +52,7 @@ button {
   flex-direction: row;
   gap: 24px;
   border-top: 1px solid black;
+  font-family: "Inter", sans-serif;
 }
 
 #password-box-1 {
