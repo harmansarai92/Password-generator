@@ -2,6 +2,12 @@
   background-color: #e1e8eb;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .main-text {
   height: 80px;
   width: 354px;
