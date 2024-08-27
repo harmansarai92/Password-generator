@@ -6,6 +6,20 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+#dark-mode {
+  height: 42px;
+  width: 191px;
+  margin-left: 52px;
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
 }
 
 .main-text {
@@ -31,7 +45,7 @@ nav {
 }
 
 .coloured-text {
-  color: #e15a97;
+  color: #8a2be2;
 }
 
 button {
