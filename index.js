@@ -8,6 +8,10 @@ const characters = [
      ";","<",">",".","?","/"
 ];
 
+
+
+
+
 password1 = document.getElementById("password-box-1");
 
 function generateRandom() {

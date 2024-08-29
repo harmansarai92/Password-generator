@@ -1,4 +1,4 @@
-* {
+body {
   background-color: #e1e8eb;
 }
 
@@ -7,10 +7,9 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
 }
 
-#dark-mode {
+.switch-mode {
   height: 42px;
   width: 191px;
   margin-left: 52px;
