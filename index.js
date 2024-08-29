@@ -10,7 +10,21 @@ const characters = [
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    const themeToggleButton = document.querySelector(".switch-mode");
+    const themeStyleSheet = document.querySelector("#theme-stylesheet");
 
+    themeToggleButton.addEventListener("click", function() {
+        if (themeStyleSheet.getAttribute('href') === "resources/light-mode-style.css") {
+            themeStyleSheet.setAttribute("href", "resources/dark-mode-style.css");
+            themeToggleButton.textContent = "Switch to Light Mode";
+        } else {
+            themeStyleSheet.setAttribute("href", "resources/light-mode-style.css");
+            themeToggleButton.textContent = "Switch to Dark Mode" 
+        }
+    })
+
+})
 
 password1 = document.getElementById("password-box-1");
 
